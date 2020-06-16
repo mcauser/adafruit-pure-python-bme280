@@ -43,7 +43,8 @@ __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_BME280.git"
 #    I2C ADDRESS/BITS/SETTINGS
 #    -----------------------------------------------------------------------
 _BME280_ADDRESS = const(0x76)
-_BME280_CHIPID = const(0x58)
+#_BME280_CHIPID = const(0x58)
+_BME280_CHIPID = const(0x60)
 
 _BME280_REGISTER_CHIPID = const(0xD0)
 _BME280_REGISTER_DIG_T1 = const(0x88)
